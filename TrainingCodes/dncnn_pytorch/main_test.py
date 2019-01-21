@@ -6,9 +6,9 @@
 #    author={Zhang, Kai and Zuo, Wangmeng and Chen, Yunjin and Meng, Deyu and Zhang, Lei},
 #    journal={IEEE Transactions on Image Processing},
 #    year={2017},
-#    volume={26}, 
-#    number={7}, 
-#    pages={3142-3155}, 
+#    volume={26},
+#    number={7},
+#    pages={3142-3155},
 #  }
 # by Kai Zhang (08/2018)
 # cskaizhang@gmail.com
@@ -174,11 +174,3 @@ if __name__ == '__main__':
         if args.save_result:
             save_result(np.hstack((psnrs, ssims)), path=os.path.join(args.result_dir, set_cur, 'results.txt'))
         log('Datset: {0:10s} \n  PSNR = {1:2.2f}dB, SSIM = {2:1.4f}'.format(set_cur, psnr_avg, ssim_avg))
-
-
-
-
-
-
-
-
